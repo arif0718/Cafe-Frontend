@@ -13,6 +13,8 @@ import Orders from "./components/Orders";
 import Users from "./components/Users";
 import "./App.css";
 function App() {
+  const[cart, setCart] = useState([]);
+  const[user, setUser] = useState({});
   return (
     <div>
       <BrowserRouter>
